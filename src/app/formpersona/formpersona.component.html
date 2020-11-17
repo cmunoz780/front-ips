@@ -1,0 +1,108 @@
+<div class="card">
+  <div class="card-header">BUSQUEDA DE PERSONA</div>
+  <div class="card-body">
+
+    <form>
+      <div class="d-flex justify-content-center bd-highlight mb-3">
+        <div class="col-sm-6">
+           <div class="form-group row">
+        <label for="nombre" class="col-form-label col-sm-2">Rut</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control"  name="rut">
+        </div>
+      </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center bd-highlight mb-3">
+        <div class="col-sm-6">
+           <div class="form-group row">
+        <label for="nombre" class="col-form-label col-sm-2">Apellido Paterno</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control"  name="apPaterno">
+        </div>
+      </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center bd-highlight mb-3">
+        <div class="col-sm-6">
+           <div class="form-group row">
+        <label for="nombre" class="col-form-label col-sm-2">Apellido Materno</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" name="apMaterno">
+        </div>
+      </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center bd-highlight mb-3">
+        <div class="col-sm-6">
+           <div class="form-group row">
+        <label for="nombre" class="col-form-label col-sm-2">Nombres</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control"  name="nombre">
+        </div>
+      </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center bd-highlight mb-3">
+        <div class="col-sm-6">
+           <div class="form-group row">
+        <label for="nombre" class="col-form-label col-sm-2">Nombre Completo</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" name="nombreCompleto">
+        </div>
+      </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center bd-highlight mb-3">
+        <div class="col-sm-6">
+           <div class="form-group row">
+        <label for="nombre" class="col-form-label col-sm-2">Razón Social</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" name="razonsocial">
+        </div>
+      </div>
+        </div>
+      </div>
+   
+              <div class="d-flex justify-content-center bd-highlight mb-3">
+                <div class="row">
+                  <label class="">
+                    <input type="radio" data-ng-model="selection2" name="options" value="option1" />
+                    <span>Option 1</span>
+                  </label>
+                  <label class="">
+                    <input type="radio" data-ng-model="selection2" name="options" value="option2" />
+                    <span>Option 2</span>
+                  </label>
+                  <button class="btn btn-primary" role="button" (click)='create()' >Limpiar</button>
+                </div>
+              </div>
+
+
+             
+
+                <div class="d-flex justify-content-center bd-highlight mb-3">
+                  <div class="col-sm-6">
+                    <div class="form-group row">
+                   
+                      <label for="nombre" class="col-form-label col-sm-2">Calidad del Solicitante</label>
+                      <select class="form-control  col-sm-6" id="sel1">
+                      <option selected>Open this select menu</option>
+                      <option value="1">Imponente</option>
+                      <option value="2">ejemplo</option>
+                      <option value="3">Ejemplo</option>
+                    </select>
+                  
+                  </div>
+                  <div class="form-group row">
+                    <button class="btn btn-primary" role="button" (click)='create()' >Limpiar</button>
+                  </div>
+                  <div>
+                  
+                  </div>
+                </div>
+                </div>
+              
+    </form>
+  </div>
+</div>

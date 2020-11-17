@@ -1,0 +1,195 @@
+<div class="card">
+  <div class="card-header">Imponente</div>
+  <div class="card-body">
+
+    <form>
+    <div class="row">
+        <div class="col-6">
+           <div class="form-group row">
+        <label for="nombre" class="col-form-label col-sm-2" disabled="true">Rut</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" [(ngModel)]="cliente.nombre" name="nombre" disabled>
+        </div>
+      </div>
+        </div>
+        <div class="col-6">
+          <div class="form-group row">
+       <label for="nombre" class="col-form-label col-sm-2">Nombre</label>
+       <div class="col-sm-6">
+        <input type="text" class="form-control" [(ngModel)]="cliente.nombre" name="nombre" disabled>
+      </div>
+     </div>
+       </div>
+        
+      </div>
+      
+    </form>
+
+  </div>
+
+ 
+</div>
+<div class="card">
+  <div class="card-header">Empleador</div>
+  <div class="card-body">
+
+    <form>
+      <div class="row">
+        <div class="col-md-3">
+          <label for="nombre" class="col-form-label col-sm-3" disabled="true">Rut</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" [(ngModel)]="cliente.nombre" name="nombre" >
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="nombre" class="col-form-label col-sm-6" disabled="true">Rut Representante Legal</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" [(ngModel)]="cliente.nombre" name="nombre" >
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="nombre" class="col-form-label col-sm-6">Código CCAF</label>
+          <select class="form-control  col-sm-6" id="sel1">
+          <option selected>Seleccionar</option>
+          <option value="1">Imponente</option>
+          <option value="2">ejemplo</option>
+          <option value="3">Ejemplo</option>
+        </select>
+        </div>
+        <div class="col-md-3">
+          <label for="nombre" class="col-form-label col-sm-6">Actividad Económica</label>
+          <select class="form-control  col-sm-6" id="sel1">
+          <option selected>Seleccionar</option>
+          <option value="1">Imponente</option>
+          <option value="2">ejemplo</option>
+          <option value="3">Ejemplo</option>
+        </select>
+        </div>
+        
+        
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <label for="nombre" class="col-form-label col-sm-3" disabled="true">Razon Social</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" [(ngModel)]="cliente.nombre" name="nombre" >
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="nombre" class="col-form-label col-sm-6" disabled="true">Nombre Representante Legal</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" [(ngModel)]="cliente.nombre" name="nombre" >
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="nombre" class="col-form-label col-sm-6">Codigo Mutual</label>
+          <select class="form-control  col-sm-6" id="sel1">
+          <option selected>Seleccionar</option>
+          <option value="1">Imponente</option>
+          <option value="2">ejemplo</option>
+          <option value="3">Ejemplo</option>
+        </select>
+        </div>
+        <div class="col-md-3">
+          <label for="nombre" class="col-form-label col-sm-6">Comuna</label>
+          <select class="form-control  col-sm-6" id="sel1">
+          <option selected>Seleccionar</option>
+          <option value="1">Imponente</option>
+          <option value="2">ejemplo</option>
+          <option value="3">Ejemplo</option>
+        </select>
+        </div>
+        
+        
+      </div>
+    </form>
+
+  </div>
+
+
+</div>
+<div class="card">
+  <div class="card-header">Periodo de Renumeración o Grafiticación Legal o Voluntaria</div>
+  <div class="card-body">
+
+    <form>
+      <div class="row">
+        <div class="col-md-3">
+          <label for="nombre" class="col-form-label col-sm-6" disabled="true">Tipo de Renumeración</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" [(ngModel)]="cliente.nombre" name="nombre" >
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-group row">
+            <label for="nombre" class="col-form-label col-sm-6">Fecha desde</label>
+            <div class="col-sm-6">
+             <input type="date" name="bday" min="1000-01-01"
+             max="3000-12-31" class="form-control">
+            </div>
+          </div>
+        </div>
+       
+          <div class="col-md-3">
+            <label for="nombre" class="col-form-label col-sm-6" disabled="true">Ex Caja</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" [(ngModel)]="cliente.nombre" name="nombre" >
+            </div>
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <label for="nombre" class="col-form-label col-sm-6" disabled="true">Estado Vigente</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" [(ngModel)]="cliente.nombre" name="nombre" >
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-group row">
+            <label for="nombre" class="col-form-label col-sm-6">Días Trabajados</label>
+            <div class="col-sm-6">
+             <input type="date" name="bday" min="1000-01-01"
+             max="3000-12-31" class="form-control">
+            </div>
+          </div>
+        </div>
+       
+          <div class="col-md-3">
+            <label for="nombre" class="col-form-label col-sm-6" disabled="true">Tasa de Pensión</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" [(ngModel)]="cliente.nombre" name="nombre" >
+            </div>
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <label for="nombre" class="col-form-label col-sm-6" disabled="true">Estado de Pago</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" [(ngModel)]="cliente.nombre" name="nombre" disabled>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="nombre" class="col-form-label col-sm-6" disabled="true">Monto Renumeracón</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" [(ngModel)]="cliente.nombre" name="nombre" >
+          </div>
+        
+      </div>
+       
+         
+      </div>
+      <div clas="row">
+        <div class="col-md-12">
+          
+          
+      </div>
+      </div>
+     
+    </form>
+
+  </div>
+
+
+</div>

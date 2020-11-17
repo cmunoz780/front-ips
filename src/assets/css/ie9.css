@@ -1,0 +1,26 @@
+.consulta-fija,.consulta-fija a{
+	height: 190px;
+}
+
+.consulta-fija h2{
+	padding-top: 35px;
+	padding-left: 20px; 
+}
+
+.banner-principal{
+	margin-top: 124px;
+}
+
+.chile-color{
+	background: url(../img/bg-chile-1.png);
+	background-repeat: repeat-y;
+	background-position: top;
+}
+.chile-color-2{
+	background: url(../img/bg-chile-2.png);
+	background-repeat: repeat-y;
+	background-position: top;
+}
+.boton-beneficios{
+	color: #a64452;
+}

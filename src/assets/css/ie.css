@@ -1,0 +1,27 @@
+.consulta-fija,.consulta-fija a{
+	height: 190px;
+}
+
+.consulta-fija h2{
+	padding-left: 20px;
+	padding-right: 20px; 
+}
+
+.banner-principal{
+	margin-top: 124px;
+}
+
+.caja-texto-bg-color{
+	margin-top: 50px;
+}
+
+.chile-color{
+	background: url(../img/bg-chile-1.png);
+	background-repeat: repeat-y;
+	background-position: top;
+}
+.chile-color-2{
+	background: url(../img/bg-chile-2.png);
+	background-repeat: repeat-y;
+	background-position: top;
+}
